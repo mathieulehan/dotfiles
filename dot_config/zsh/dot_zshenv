@@ -3,7 +3,7 @@
 # .zshenv - Zsh environment file, loaded always.
 #
 
-# NOTE: .zshenv needs to live at ~/.zshenv, not in $ZDOTDIR!
+# NOTE: .zshenv needs to live at ~/.zshenv, not in $ZDOTDIR! or do : ln -s $ZDOTDIR/.zshenv ~/.zshenv
 
 # XDG Base Directory and ZDOTDIR
 export XDG_CACHE_HOME=${XDG_CACHE_HOME:-$HOME/.cache}
