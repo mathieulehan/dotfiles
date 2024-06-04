@@ -1,0 +1,4 @@
+#!/bin/zsh
+#
+# .logout - Zsh file loaded on logout.
+#
