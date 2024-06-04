@@ -27,3 +27,6 @@ eval "$(starship init zsh)"
 
 # Launch zoxide
 eval "$(zoxide init zsh)"
+
+# Launch fzf
+FZF_CTRL_R_COMMAND= source <(fzf --zsh)
