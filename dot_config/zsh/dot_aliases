@@ -5,13 +5,10 @@
 
 # mask built-ins with better defaults
 alias vi=vim
+alias cat='bat -pP'
 
 # more ways to ls
 alias ll='ls -lAh --color'
-
-# find
-alias fd='find . -type d -name'
-alias ff='find . -type f -name'
 
 # url encode/decode
 alias urldecode='python3 -c "import sys, urllib.parse as ul; \
