@@ -8,7 +8,7 @@ alias vi=vim
 alias cat='bat -pP'
 
 # more ways to ls
-alias ll='ls -lAh --color'
+alias ll='eza -la --icons=always --color=always'
 
 # url encode/decode
 alias urldecode='python3 -c "import sys, urllib.parse as ul; \
