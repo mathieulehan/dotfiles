@@ -38,7 +38,7 @@ export _ZO_FZF_OPTS="
 "
 eval "$(zoxide init zsh)"
 
-# Force bindkey history-search-multi-word (overwrote by zvm) 
+# Force bindkey history-search-multi-word (override by zvm) 
 function zvm_after_init() {
    zvm_bindkey viins '^R' history-search-multi-word
 }
@@ -62,3 +62,6 @@ export FZF_ALT_C_OPTS="
   --walker-skip .git,node_modules,target
   --preview 'eza -1 -a --color=always {}'
 "
+
+# Chezmoi completion
+source <(chezmoi completion zsh)
