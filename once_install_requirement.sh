@@ -13,13 +13,13 @@ Ubuntu-24.04)
     # Install tools
     sudo apt install -y zsh bat eza tree fd-find net-tools bind9-dnsutils
     # Install zoxide
-    curl -sSfL https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh | sh
+    sh -c "$(curl -sSfL https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh)"
     # batcat => bat
     ln -s $(which batcat) ~/.local/bin/bat
     # fdfind => fd
     ln -s $(which fdfind) ~/.local/bin/fd
     # Install starship prompt theme
-    curl -sS https://starship.rs/install.sh | sh
+    sh -c "$(curl -fsLS https://starship.rs/install.sh)" -- -y
     # Install fzf binary into ~/.local/bin
     git clone --depth 1 https://github.com/junegunn/fzf.git ~/workspace/fzf
     ~/workspace/fzf/install --bin && cp -p ~/workspace/fzf/bin/fzf ~/.local/bin/
