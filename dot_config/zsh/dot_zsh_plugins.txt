@@ -13,3 +13,5 @@ zsh-users/zsh-autosuggestions
 zdharma-continuum/history-search-multi-word
 
 jeffreytse/zsh-vi-mode
+
+so-fancy/diff-so-fancy
