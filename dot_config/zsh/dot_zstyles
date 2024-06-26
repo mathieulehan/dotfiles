@@ -15,7 +15,8 @@ zstyle ':completion:*' menu no
 # preview directory's content with eza when completing cd
 zstyle ':fzf-tab:complete:cd:*' fzf-preview 'eza -1 --color=always -a $realpath'
 zstyle ':fzf-tab:complete:z:*' fzf-preview 'eza -1 --color=always -a $realpath'
+zstyle ':fzf-tab:complete:vim:*' fzf-preview '[[ -f $realpath ]] && bat -n --color=always $realpath || eza -1 --color=always -a $realpath'
 # switch group using `<` and `>`
 zstyle ':fzf-tab:*' switch-group '<' '>'
 # adjust fzf tab height
-zstyle ':fzf-tab:*' fzf-flags --height=40
+zstyle ':fzf-tab:*' fzf-flags --height=40%
