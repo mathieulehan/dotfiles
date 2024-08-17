@@ -24,7 +24,7 @@ Ubuntu-24.04)
     git clone --depth 1 https://github.com/junegunn/fzf.git ~/workspace/fzf
     ~/workspace/fzf/install --bin && cp -p ~/workspace/fzf/bin/fzf ~/.local/bin/
     # Change default shell to zsh
-    sudo sed -i "s/\/bin\/bash/\/bin\/zsh/g" /etc/passwd
+    sudo chsh --shell /bin/zsh $USER
     ;;
 
 *)
