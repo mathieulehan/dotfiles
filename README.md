@@ -29,11 +29,11 @@ J'utilise également les outils suivants pour améliorer mon environnement :
 
 ## Utilisation et personalisation
 
-Vous pouvez librement utiliser ce repo pour en faire une base de customisation de votre shell ou pour vous inspirez à faire le votre.
+Vous pouvez librement utiliser ce repo pour avoir une base de customisation pour votre shell ou pour vous inspirez à faire le votre.
 
 1. Forker ce repo chez vous
 
-2. Modifier le fichier [run_once_install_requirement.sh](run_once_install_requirement.sh) pour convenir avec vos installation
+2. Modifier le fichier [run_once_install_requirement.sh](run_once_install_requirement.sh) pour convenir avec votre installation
 
 2. **Installer chezmoi**  
    Suivez la [documentation officielle](https://www.chezmoi.io/install/) ou utilisez la commande rapide :
@@ -46,11 +46,11 @@ Vous pouvez librement utiliser ce repo pour en faire une base de customisation d
    chezmoi init --apply https://github.com/<username>/dotfiles.git
    ```
 
-   > ⚠️ Remplace `<username>` par ton nom d’utilisateur GitHub.
+   > ⚠️ Remplace `<username>` par votre nom d’utilisateur GitHub.
 
 4. **Mettre à jour les dotfiles**  
    ```bash
    chezmoi update
    ```
 
-5. Consultez la [doc chezmoi](https://www.chezmoi.io/docs/) pour les templates, secrets, etc.
+5. Consultez la [doc chezmoi](https://www.chezmoi.io/docs/) pour comprendre comment l'utiliser
